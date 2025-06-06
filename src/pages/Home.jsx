@@ -3,6 +3,9 @@ import ThemeToggle from '../components/ThemeToggle'
 import StarBackground from '../components/StarBackground'
 import Navbar from '../components/Navbar'
 import HeroSection from '../components/HeroSection'
+import { ProjectsSection } from '../components/ProjectsSection'
+import { SkillsSection } from '../components/SkillsSection'
+import { AboutSection } from '../components/AboutSection'
 
 const Home = () => {
   return (
@@ -19,6 +22,9 @@ const Home = () => {
         {/** Main Content */}
         <main>
             <HeroSection />
+            <AboutSection />
+            <SkillsSection />
+            <ProjectsSection />
         </main>
 
         {/** Footer */}
