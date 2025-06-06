@@ -26,7 +26,7 @@ const skills = [
 
 const categories = ["all", "frontend", "backend", "tools"];
 
-export const SkillsSection = () => {
+const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
 
   const filteredSkills = skills.filter(
@@ -84,3 +84,5 @@ export const SkillsSection = () => {
     </section>
   );
 };
+
+export default SkillsSection;
