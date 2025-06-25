@@ -1,4 +1,4 @@
-import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { ArrowRight, ExternalLink, GithubIcon } from "lucide-react";
 
 const projects = [
   {
@@ -31,7 +31,7 @@ const projects = [
   {
     id: 4,
     title: "CatalystOne HCM Suite",
-    description: "Worked on various modules of CatalystOne’s HR software, improving performance and UI consistency across their cloud-based platform.",
+    description: "Worked on various modules of CatalystOne's HR software, improving performance and UI consistency across their cloud-based platform.",
     image: "/projects/Tataaig Agent Portal.png",
     tags: ["Angular", "javascript", "SASS"],
     // demoUrl: "#",
@@ -96,7 +96,7 @@ const ProjectsSection = () => {
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
-                      <Github size={20} />
+                      <GithubIcon size={20} />
                     </a>}
                   </div>
                 </div>
