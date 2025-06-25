@@ -41,7 +41,7 @@ const Navbar = () => {
         </a>
 
         {/* desktop nav */}
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex space-x-8 mr-8">
           {navItems.map((item, key) => (
             <a
               key={key}
